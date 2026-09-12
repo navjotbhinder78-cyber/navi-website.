@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Navi Web Studio creates modern websites for local businesses.">
+<title>Navi Web Studio | Websites for Local Businesses</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+font-family:Arial,sans-serif;
+background:#07111f;
+color:#f7f9fc;
+line-height:1.6
+}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+
+nav{
+position:sticky;
+top:0;
+z-index:10;
+background:rgba(7,17,31,.9);
+border-bottom:1px solid rgba(255,255,255,.08)
+}
+
+.nav-inner{
+height:72px;
+display:flex;
+align-items:center;
+justify-content:space-between
+}
+
+.logo{
+font-size:1.3rem;
+font-weight:800
+}
+
+.logo span{color:#7c5cff}
+
+.nav-links{
+display:flex;
+gap:26px;
+color:#b9c3d4
+}
+
+.nav-links a:hover{color:white}
+
+.hero{
+padding:110px 0 90px;
+text-align:center;
+background:radial-gradient(circle at 50% 10%,rgba(124,92,255,.25),transparent 42%)
+}
+
+.eyebrow{
+color:#a99aff;
+font-weight:700;
+text-transform:uppercase;
+letter-spacing:.12em;
+font-size:.78rem;
+margin-bottom:18px
+}
+
+h1{
+max-width:850px;
+margin:auto;
+font-size:clamp(3rem,8vw,6.2rem);
+line-height:.98;
+letter-spacing:-.06em
+}
+
+.hero p{
+max-width:680px;
+margin:28px auto 34px;
+color:#b9c3d4;
+font-size:1.12rem
+}
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:14px;
+flex-wrap:wrap
+}
+
+.btn{
+display:inline-block;
+padding:13px 20px;
+border-radius:12px;
+font-weight:800;
+border:1px solid rgba(255,255,255,.12)
+}
+
+.btn-primary{
+background:#7c5cff
+}
+
+.btn-primary:hover{
+background:#6d4cf0
+}
+
+.btn-secondary{
+background:rgba(255,255,255,.05)
+}
+
+section{padding:90px 0}
+
+.section-title{
+font-size:clamp(2rem,5vw,3.2rem);
+letter-spacing:-.04em;
+margin-bottom:12px
+}
+
+.section-copy{
+color:#9eabc0;
+max-width:650px;
+margin-bottom:38px
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px
+}
+
+.card{
+padding:28px;
+border-radius:20px;
+background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025));
+border:1px solid rgba(255,255,255,.09)
+}
+
+.icon{
+font-size:2rem;
+margin-bottom:18px
+}
+
+.card h3{
+font-size:1.25rem;
+margin-bottom:10px
+}
+
+.card p{color:#9eabc0}
+
+.work-card{
+min-height:220px;
+display:flex;
+flex-direction:column;
+justify-content:flex-end
+}
+
+.tag{
+display:inline-block;
+width:fit-content;
+font-size:.75rem;
+color:#bdb3ff;
+background:rgba(124,92,255,.14);
+border:1px solid rgba(124,92,255,.28);
+padding:5px 9px;
+border-radius:999px;
+margin-bottom:12px
+}
+
+.cta{
+text-align:center;
+padding:90px 20px;
+border-radius:28px;
+background:radial-gradient(circle at 50% 0%,rgba(124,92,255,.26),transparent 55%),rgba(255,255,255,.035);
+border:1px solid rgba(255,255,255,.09)
+}
+
+.cta p{
+color:#aeb8c9;
+margin:14px auto 26px;
+max-width:650px
+}
+
+footer{
+padding:30px 0;
+color:#78869b;
+border-top:1px solid rgba(255,255,255,.08);
+font-size:.9rem
+}
+
+.footer-inner{
+display:flex;
+justify-content:space-between;
+gap:20px;
+flex-wrap:wrap
+}
+
+@media(max-width:760px){
+.nav-links{display:none}
+.grid{grid-template-columns:1fr}
+.hero{padding-top:80px}
+section{padding:65px 0}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container nav-inner">
+<a class="logo" href="#top">Navi<span>Web</span></a>
+
+<div class="nav-links">
+<a href="#services">Services</a>
+<a href="#work">Work</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<main id="top">
+
+<section class="hero">
+<div class="container">
+
+<div class="eyebrow">
+Website Developer • Local Business Websites
+</div>
+
+<h1>
+Turn your business into a brand.
+</h1>
+
+<p>
+I'm Navi, a website developer creating modern, mobile-friendly websites that help local businesses look professional, build trust, and turn visitors into customers.
+</p>
+
+<div class="buttons">
+<a class="btn btn-primary" href="#contact">
+Start a project →
+</a>
+
+<a class="btn btn-secondary" href="#work">
+See what I build
+</a>
+</div>
+
+</div>
+</section>
+
+
+<section id="services">
+<div class="container">
+
+<h2 class="section-title">
+What I build
+</h2>
+
+<p class="section-copy">
+Clean, fast websites designed to make your business easier to find, understand, and contact.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<div class="icon">🌐</div>
+<h3>Business Websites</h3>
+<p>
+Professional websites for service businesses, shops, contractors, and local brands.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🤖</div>
+<h3>AI-Powered Ideas</h3>
+<p>
+Smart content and modern ideas that help your website stand out and save you time.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">📱</div>
+<h3>Responsive Design</h3>
+<p>
+Beautiful layouts that work smoothly across phones, tablets, and desktop computers.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section id="work">
+<div class="container">
+
+<h2 class="section-title">
+Examples of what I can create
+</h2>
+
+<p class="section-copy">
+A few website directions for the kinds of local businesses I work with.
+</p>
+
+<div class="grid">
+
+<div class="card work-card">
+<span class="tag">Barber Shop</span>
+<h3>
